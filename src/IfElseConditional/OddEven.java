@@ -1,3 +1,4 @@
+//Take a number from user and Check Even or Odd.
 package IfElseConditional;
 
 import java.util.Scanner;
