@@ -7,7 +7,7 @@ public class StarFlippedTriangle {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         for(int i = 1; i<=n; i++){
-            int a = n;
+//            int a = n;
 //        for(int i = 1; i<=n;i++){
 //            for(int j = 1;j<=a;j++){
 //                System.out.print(j+" ");
