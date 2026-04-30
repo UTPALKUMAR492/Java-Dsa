@@ -6,13 +6,13 @@ public class MaxElements {
         System.out.println("Enter Size of Array:-");
         int n = sc.nextInt();
         System.out.println("Enter Elements in the Arrays:-");
-        int arr[] = new int[n];
+        int[] arr = new int[n];
         for(int i = 0;i<arr.length;i++){
             arr[i] = sc.nextInt();
         }
         System.out.println("Elements in the Array:-");
-        for (int i =0;i<arr.length;i++){
-            System.out.print(arr[i]+" ");
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
         System.out.println();
         int gr = arr[0];
