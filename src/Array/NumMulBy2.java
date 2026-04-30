@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class NumMulBy2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int arr[] = new int[7];
+        int[] arr = new int[7];
         //Default Values
         //for (int i = 0;i<arr.length;i++){
             //System.out.print(arr[i]+" ");
@@ -15,8 +15,8 @@ public class NumMulBy2 {
             arr[i] = sc.nextInt();
         }
         //print
-        for (int i = 0;i< arr.length;i++){
-            System.out.print(arr[i]+" ");
+        for (int j : arr) {
+            System.out.print(j + " ");
         }
 
     }
