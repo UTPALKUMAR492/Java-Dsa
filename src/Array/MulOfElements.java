@@ -7,7 +7,7 @@ public class MulOfElements {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Size of Array:- ");
         int n = sc.nextInt();
-        int arr[] = new int[n];
+        int[] arr = new int[n];
         int Mul = 1;
         System.out.println("Enter Elements of Array:- ");
         for(int i=0;i< arr.length;i++){
